@@ -37,7 +37,7 @@ def reverse_readline(filename, my_name, buf_size=8192):
                 if Found:
                     break
 my_name = 'bi'
-default_path = 'C:\\Program Files (x86)\\Hearthstone\\Logs\\Power_old.log'
+default_path = 'C:\\Program Files (x86)\\Hearthstone\\Logs\\Power.log'
 
 if not os.path.exists(default_path):
     print('You have to have the game running and play a match for log file to appear.')
