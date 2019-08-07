@@ -36,7 +36,8 @@ def reverse_readline(filename, my_name, buf_size=8192):
                             break
                 if Found:
                     break
-my_name = 'bi'
+#Use your blizzard username
+my_name = 'blizzardID#12345'
 default_path = 'C:\\Program Files (x86)\\Hearthstone\\Logs\\Power.log'
 
 if not os.path.exists(default_path):
